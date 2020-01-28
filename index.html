@@ -2,29 +2,94 @@
 <html>
 <head>
 <style>
-body {
-  background-color: linen;
-}
+img:hover{
+  transform: scale(1.5);
+  transition: all .2s ease-in-out;
 
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position:relative;
+  left:300px;
+  top: -100px;
+}
+.sidebar{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4d4d4d;
+  overflow-x: auto;
+  padding-top: 100px;
+}
+p.link {
+  font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: #a6a6a6;
+  transform: scale(5);
+  transition: all .2s ease-in-out;
+}
+div.static{
+  position: relative;
+  left: 300px;
+}
 h1 {
-  color: maroon;
-  margin-left: 40px;
-} 
+   text-align: center;
+   position: relative;
+   right: 500px;
+   top: 100px;
+   
+}
+.dropdown{
+   position: relative;
+   display: block;
+}
+.dropdown-content{
+  display:none;
+  position: absolute;
+  background: gray;
+  min-width: 160px;
+  padding: 12px 16px;
+  
+}
+.dropdown:hover .dropdown-content {
+  display:block;
+}
 </style>
 </head>
 <body>
- 
-  <h1> what up </h1>
-  <p> External Links </p>
-  <a href= "https://soundcloud.com/joshh-tolentino" 
-     target="_blank"> SoundCloud: AyyeItsJoshh </a><br/>
- <a href= "https://www.instagram.com/ayyeitsjoshhh/" 
-     target="_blank"> Instagram @AyyeItsJoshh </a><br/>
- <a href= "https://na.op.gg/summoner/userName=ayyeitsjoshh"
-     target="_blank"> https://na.op.gg/summoner/userName=ayyeitsjoshh </a><br/><br/>
-  <p> yo, click </p>
-  <a href= "https://ayyeitsjoshh.github.io/CSSE-370/NewPage" target "_blank"> this! </a><br/>
-<img src= "https://wallpaperaccess.com/full/1901974.jpg" alt="baby yoda">
- 
- </body>
+
+<h1 style="border-style: dotted;"> FAQ </h1>
+
+<div class="dropdown" style=";position: relative;left: 400px; top: 100px;"><span>How old are you?</span>
+<div class="dropdown-content"><p> 20 Years old </p></div></div>\
+<div class="dropdown" style=";position: relative;left: 400px; top: 150px;"><span>How old are you?</span>
+<div class="dropdown-content"><p> 20 Years old </p></div></div>
+<div class="dropdown" style=";position: relative;left: 400px; top: 250px;"><span>How old are you?</span>
+<div class="dropdown-content"><p> 20 Years old </p></div></div>
+
+<div class=sidebar>
+<hr>
+<p class=link> Home </p>
+<hr>
+<p class=link > SoundCloud </p> 
+<hr>
+<p class=link> Instagram </p> 
+<hr>
+<a href="https://na.op.gg/summoner/userName=ayyeitsjoshh" target="_blank"><p class=link> Gaming </p>  </a>
+<hr>
+</div>
+<img class=center src="https://i.kym-cdn.com/photos/images/original/001/561/446/27d.jpg" alt = "google dinosaur" >
+</body>
 </html>
