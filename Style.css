@@ -1,4 +1,3 @@
-<style>
 input:focus{
   background-color: green;
 }
@@ -67,4 +66,4 @@ h1 {
 .dropdown:hover .dropdown-content {
   display:block;
 }
-</style>
+
