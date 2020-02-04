@@ -1,3 +1,8 @@
+@media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
 input:focus{
   background-color: green;
 }
@@ -52,18 +57,31 @@ h1 {
    
 }
 .dropdown{
+   font-size: 50px;
    position: relative;
    display: block;
 }
 .dropdown-content{
   display:none;
   position: absolute;
-  background: gray;
-  min-width: 160px;
+  background: green;
+  min-width: 400px;
   padding: 12px 16px;
+  z-index: 100;
   
+}
+*{
+  auto-expand:100%;
 }
 .dropdown:hover .dropdown-content {
   display:block;
 }
-
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  position:absolute;
+  left: 700px;
+  top: -100px;
