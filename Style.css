@@ -2,6 +2,10 @@
   div.example {
     display: none;
   }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 }
 input:focus{
   background-color: green;
