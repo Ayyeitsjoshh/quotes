@@ -3,15 +3,20 @@
 <head>
 <link rel="stylesheet" type="text/css" href="Style.css">
 <script>
-alert("Welcome Traveller :D");  
+//alert("Welcome Traveller :D");  
+function myFunction() {
+  var myobj = document.getElementById("image");
+  myobj.remove();
+}
+
  </script>
 </head>
 
 <body>
+<button onclick="myFunction()"> remove img </button>
 <button onclick = "myFunction()" style="position:relative; left: 400px"> Click this </button>
 <form style="position:relative; left: 400px" > Leave a message: <input type="text"></form>
 <h1 style="border-style: dotted; position:relative;top:100px; left: -200px;"> FAQ </h1>
-<script>function myFunction(){ alert("welcome traveller :D"); }</script>
 <div class="dropdown" style=";position: relative;left: 400px; top: 100px;"><span>How old are you?</span>
 <div class="dropdown-content"><p> 20 Years old </p></div></div>\
 <div class="dropdown" style=";position: relative;left: 400px; top: 150px;"><span>What's your Nationality?</span>
@@ -29,7 +34,7 @@ alert("Welcome Traveller :D");
 <a href="https://ayyeitsjoshh.github.io/CSSE-370/NewPage" target="_blank"><p class=link> Other Page </p>  </a>
 <hr>
 </div>
-<img class=imgcenter src="https://i.redd.it/d19cl2tyxq141.png" alt = "google dinosaur" >
+<img id="image" class=imgcenter src="https://i.redd.it/d19cl2tyxq141.png" alt = "google dinosaur" >
 </div>
 
 </body>
