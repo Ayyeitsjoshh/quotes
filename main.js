@@ -1,4 +1,4 @@
-location.reload();
+
 
 function myFunction() {
   
