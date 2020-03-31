@@ -1,3 +1,5 @@
+location.reload();
+
 function myFunction() {
   
   var myobj = document.getElementById("image");
