@@ -53,3 +53,13 @@ fetchQuote()
 // Handle API response
 
 .then((data) => alertQuote(data.quote));
+
+function triggerAPICall(){
+  // Trigger API call
+
+fetchQuote()
+
+// Handle API response
+
+.then((data) => alertQuote(data.quote));
+}
