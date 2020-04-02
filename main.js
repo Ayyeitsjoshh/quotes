@@ -64,4 +64,6 @@ fetchQuote()
 // Handle API response
 
 .then((data) => alertQuote(data.quote));
+  
+  <button onclick = "myFunction()"> delete <button>
 }
