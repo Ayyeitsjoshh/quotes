@@ -26,6 +26,8 @@ alert(text);
 
 
 
+
+
 async function fetchQuote() {
 
 // API URL
@@ -63,3 +65,6 @@ fetchQuote()
 
 .then((data) => alertQuote(data.quote));
 }
+
+function myFunction() {
+  alert("Page is loaded");
