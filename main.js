@@ -1,11 +1,11 @@
 
 
 function myFunction() {
-  
+
   var myobj = document.getElementById("image");
-  
+
   myobj.remove();
-  
+
 }
 
 function alertQuote(quote) {
@@ -48,14 +48,6 @@ return await response.json();
 
 
 
-// Trigger API call
-
-fetchQuote()
-
-// Handle API response
-
-.then((data) => alertQuote(data.quote));
-
 function triggerAPICall(){
   // Trigger API call
 
@@ -64,5 +56,5 @@ fetchQuote()
 // Handle API response
 
 .then((data) => alertQuote(data.quote));
-  
+
 }
