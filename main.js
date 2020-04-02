@@ -65,6 +65,3 @@ fetchQuote()
 
 .then((data) => alertQuote(data.quote));
 }
-
-function askVote() {
-  alert("Page is loaded");
